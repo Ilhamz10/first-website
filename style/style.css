@@ -1,0 +1,371 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+.container{
+    max-width: 1110px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+}
+.top-header-list {
+    display: flex;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.header-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.header-logo-cont{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-logo {
+    width: 100%;
+}
+
+.logo-text{
+    font-weight: 700;
+    color: #66C05D;
+}
+
+.header-btn-cont {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.phone-number{
+    font-size: 16px;
+}
+.header-btn {
+    width: 170px;
+    height: 40px;
+    background: none;
+    border: 1px solid #66C05D;
+    border-radius: 40px;
+}
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    border-top: 1px solid #EFEFEF;
+}
+.bottom-header-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.bottom-header-list .menu{
+    display: none;
+    font-size: 1.2rem;
+}
+.bottom-header-item {
+    font-size: 16px;
+}
+
+main{
+    background: #66C05D;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-text-cont {
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.main-title {
+    font-size: clamp(2rem, 3vw, 3.5rem);
+    font-weight: 700;
+}
+.main-btn {
+    width: 170px;
+    height: 40px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    color: white;
+}
+.main-img{
+    width: 70%;
+}
+
+.main-img img{
+    width: 100%;
+}
+
+section{
+    background: #EFEFEF;
+}
+
+.products-container {
+    padding: 100px 0;
+}
+.products-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products-title p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.products-title img{
+    margin-bottom: 10px;
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.product {
+    background: #fff;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+    gap: 20px;
+}
+.product img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.products-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.products-description {
+    text-align: center;
+}
+.products-price {
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.products button{
+    width: 60%;
+    background: #66C05D;
+    border-radius: 40px;
+    padding: 9px 0;
+    margin: 0 auto;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 0 100px 0;
+}
+
+.card {
+    width: 49%;
+    background: #66C05D;
+    padding: 35px 0;
+}
+.card-cont {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+    width: 60%;
+}
+
+.card-info h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card input{
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.card-cont img{
+    width: 30%;
+}
+
+.card:last-child .card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+    width: 40%;
+}
+
+.card:last-child button{
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    color: white;
+}
+
+.footer-top-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.social-platforms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.social-platforms img{
+    width: 15%;
+}
+
+.footer-bottom{
+    background: #EFEFEF;
+    padding: 25px 0;
+}
+
+.footer-bottom-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-cont p{
+    font-size: 12px;
+    color:#828282;
+}
+
+@media (max-width: 1000px) {
+    .header-btn-cont{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .social-platforms{
+        width: 10%;
+        min-width: 100px;
+    }
+    .social-platforms img{
+        width: 30%;
+    }
+}
+
+@media (max-width: 700px) {
+    .products{
+        gap: 30px;
+    }
+    .product{
+        width: 40%;
+    }
+    .cards{
+        gap: 20px;
+    }
+    .card{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .main-text-cont{
+        width: 80%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .bottom-header-item{
+        display: none;
+    }
+    .bottom-header-nav{
+        width: 80%;
+    }
+    .bottom-header-list{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .bottom-header-list .menu{
+        display: block;
+        font-size: 1.5rem;
+    }
+    .main-img{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .card input{
+        width: 120%;
+    }
+}
+
+@media (max-width: 550px) {
+    .product{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .header-logo-cont{
+        flex-direction: column;
+    }
+    .card:last-child .card-info{
+        width: 80%;
+    }
+    .top-header-item a{
+        font-size: 10px;
+    }
+}
